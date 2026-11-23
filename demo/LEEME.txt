@@ -1,0 +1,17 @@
+RUTAÓPTIMA PRO — DEMOSTRACIÓN
+
+Para iniciar, haz doble clic en Abrir RutaOptima.bat y mantén abierta la ventana del servidor. Abre http://127.0.0.1:8765/ en tu navegador. Si el puerto ya está ocupado, cierra la ventana anterior del servidor antes de iniciar de nuevo.
+
+Usuario: Brian Jimenez
+Contraseña: 123456
+
+En Rutas y pedidos puedes registrar pedidos, seleccionar un vehículo y marcar los pedidos pendientes para asignarlos. La lista refleja la selección del vehículo; desmarca un pedido para quitarlo de ese vehículo y pulsa Asignar seleccionados. Ordenar ruta propone un orden por zonas predefinidas. Cambia los estados en la tabla de pedidos.
+
+Los pedidos se guardan en el navegador de este dispositivo. Usa siempre la misma dirección local y navegador para verlos. Si borras sus datos se perderán. El acceso no protege información real.
+
+El mapa de calles procede de OpenStreetMap y necesita internet. En Resumen selecciona un pedido o pulsa Ver en mapa desde su fila. Los vehículos con pedidos activos aparecen en el mapa; los que tienen entregas en camino se mueven de forma simulada. Las posiciones se basan en puntos de referencia de zonas, no en GPS ni en direcciones exactas. La propuesta de orden no calcula distancias, tráfico ni rutas reales. Las otras métricas de ejemplo y el análisis económico son ilustrativos.
+
+REPORTES
+En Reportes registra fecha, vehículo, litros, costo de combustible y otros costos. Los indicadores usan todos los registros guardados en este navegador. La puntualidad compara la fecha y hora límite del pedido con la hora del dispositivo al marcarlo entregado; los pedidos antiguos sin fecha límite se excluyen. El costo por entrega divide todos los gastos registrados por todos los pedidos entregados, sin filtro por periodo.
+
+Para obtener un PDF, pulsa Descargar / guardar PDF y selecciona Guardar como PDF en la ventana de impresión. El documento incluye el logo y secciones de combustible, puntualidad y costo por entrega.
